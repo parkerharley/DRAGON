@@ -34,8 +34,8 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 600,
-  height: 600,
+  width: 1200,
+  height: 1200,
   smoothing: false,
 };
 
@@ -51,7 +51,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'MYLITTLEDRAGONS';
+const CONTRACT_NAME = 'MY LITTLE DRAGONS';
 const CONTRACT_SYMBOL = 'MLD';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x95b4d2E5b2ff8BFe81E7483Ca02C4ce99AC35dfb';
@@ -72,7 +72,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = ""; // If you want to manually include it
+let CONTRACT_ADDRESS = "null"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
